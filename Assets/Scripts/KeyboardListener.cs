@@ -8,7 +8,7 @@ public class KeyboardListener : MonoBehaviour
 	
 	void Update ()
 	{
-		if(Input.GetKeyUp(KeyCode.BackQuote))
+		if(Input.GetKeyUp(KeyCode.Tab))
 		{
 			ToggleConsole();
 		}		
